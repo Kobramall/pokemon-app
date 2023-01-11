@@ -6,7 +6,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import axios from 'axios';
 import Home from './screens/Home';
 import Stats from './screens/Stats';
-import Navigator from './routes/homeStack'
+
 
 export default function App() {
   
