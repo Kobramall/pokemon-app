@@ -6,7 +6,7 @@ import axios from 'axios'
  
 export default function Home({ navigation }) {
   
-  const [pokeArr, setPokeArr] = useState([{id:0, name:'bulbasaur'}, {id:1, name:'Ivysaur'}])
+  const [pokeArr, setPokeArr] = useState([])
 
   
   useEffect(() => {
